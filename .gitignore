@@ -1,0 +1,11 @@
+# Everything a run produces.  The repository is the method, not the results:
+# a cold run writes tens of GB of traces and simulator output next to these
+# scripts, and none of it is reproducible-by-download.
+__pycache__/
+*.pyc
+*.log
+out_*/
+build_dse_*/
+traces*/
+*.bin
+*.so

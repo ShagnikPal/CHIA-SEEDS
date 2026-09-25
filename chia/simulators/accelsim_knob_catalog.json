@@ -1,0 +1,1685 @@
+{
+ "-SST_mode": {
+  "name": "-SST_mode",
+  "ctype": "OPT_BOOL",
+  "desc": "SST mode",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_CC_ACC": {
+  "name": "-accelwattch_hybrid_perfsim_CC_ACC",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Constant Cache Acesses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_CYCLES": {
+  "name": "-accelwattch_hybrid_perfsim_CYCLES",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Executed Cycles for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_DRAM_RD": {
+  "name": "-accelwattch_hybrid_perfsim_DRAM_RD",
+  "ctype": "OPT_BOOL",
+  "desc": "Get DRAM Reads for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_DRAM_WR": {
+  "name": "-accelwattch_hybrid_perfsim_DRAM_WR",
+  "ctype": "OPT_BOOL",
+  "desc": "Get DRAM Writes for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L1_RH": {
+  "name": "-accelwattch_hybrid_perfsim_L1_RH",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L1 Read Hits for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L1_RM": {
+  "name": "-accelwattch_hybrid_perfsim_L1_RM",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L1 Read Misses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L1_WH": {
+  "name": "-accelwattch_hybrid_perfsim_L1_WH",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L1 Write Hits for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L1_WM": {
+  "name": "-accelwattch_hybrid_perfsim_L1_WM",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L1 Write Misses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L2_RH": {
+  "name": "-accelwattch_hybrid_perfsim_L2_RH",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L2 Read Hits for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L2_RM": {
+  "name": "-accelwattch_hybrid_perfsim_L2_RM",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L2 Read Misses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L2_WH": {
+  "name": "-accelwattch_hybrid_perfsim_L2_WH",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L2 Write Hits for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_L2_WM": {
+  "name": "-accelwattch_hybrid_perfsim_L2_WM",
+  "ctype": "OPT_BOOL",
+  "desc": "Get L2 Write Misses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_NOC": {
+  "name": "-accelwattch_hybrid_perfsim_NOC",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Interconnect Acesses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_NUM_SM_IDLE": {
+  "name": "-accelwattch_hybrid_perfsim_NUM_SM_IDLE",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Number of Idle SMs for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_PIPE_DUTY": {
+  "name": "-accelwattch_hybrid_perfsim_PIPE_DUTY",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Pipeline Duty Cycle Acesses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_SHARED_ACC": {
+  "name": "-accelwattch_hybrid_perfsim_SHARED_ACC",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Shared Memory Acesses for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_hybrid_perfsim_VOLTAGE": {
+  "name": "-accelwattch_hybrid_perfsim_VOLTAGE",
+  "ctype": "OPT_BOOL",
+  "desc": "Get Chip Voltage for Accelwattch-Hybrid from Accel-Sim",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-accelwattch_xml_file": {
+  "name": "-accelwattch_xml_file",
+  "ctype": "OPT_CSTR",
+  "desc": "AccelWattch XML file",
+  "default": "accelwattch_sass_sim.xml",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-aggregate_power_stats": {
+  "name": "-aggregate_power_stats",
+  "ctype": "OPT_BOOL",
+  "desc": "Accumulate power across all kernels",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-checkpoint_CTA": {
+  "name": "-checkpoint_CTA",
+  "ctype": "OPT_INT32",
+  "desc": "checkpointing after # of CTA (< less than total CTA)",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-checkpoint_CTA_t": {
+  "name": "-checkpoint_CTA_t",
+  "ctype": "OPT_INT32",
+  "desc": "resume from which CTA",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-checkpoint_insn_Y": {
+  "name": "-checkpoint_insn_Y",
+  "ctype": "OPT_INT32",
+  "desc": "resume from which CTA",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-checkpoint_kernel": {
+  "name": "-checkpoint_kernel",
+  "ctype": "OPT_INT32",
+  "desc": "checkpointing during execution of which kernel (1- 1st kernel)",
+  "default": "1",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-checkpoint_option": {
+  "name": "-checkpoint_option",
+  "ctype": "OPT_INT32",
+  "desc": "checkpointing flag (0 = no checkpoint)",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-chiplet_mem_stride": {
+  "name": "-chiplet_mem_stride",
+  "ctype": "OPT_INT32",
+  "desc": "Memory stride for chiplet partitioning. Default: 8192",
+  "default": "8192",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-chiplet_partition_stride": {
+  "name": "-chiplet_partition_stride",
+  "ctype": "OPT_UINT32",
+  "desc": "stride for chiplet partition indexing",
+  "default": "8192",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-coption": {
+  "name": "-coption",
+  "ctype": "OPT_CSTR",
+  "desc": "char * data",
+  "default": "NULL",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-dram_dual_bus_interface": {
+  "name": "-dram_dual_bus_interface",
+  "ctype": "OPT_UINT32",
+  "desc": "dual_bus_interface (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-dram_elimnate_rw_turnaround": {
+  "name": "-dram_elimnate_rw_turnaround",
+  "ctype": "OPT_BOOL",
+  "desc": "elimnate_rw_turnaround i.e set tWTR and tRTW = 0",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-dram_latency": {
+  "name": "-dram_latency",
+  "ctype": "OPT_UINT32",
+  "desc": "DRAM latency (default 30)",
+  "default": "30",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-dram_seperate_write_queue_enable": {
+  "name": "-dram_seperate_write_queue_enable",
+  "ctype": "OPT_BOOL",
+  "desc": "Seperate_Write_Queue_Enable",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-dram_write_queue_size": {
+  "name": "-dram_write_queue_size",
+  "ctype": "OPT_CSTR",
+  "desc": "Write_Queue_Size",
+  "default": "32:28:16",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-dvfs_enabled": {
+  "name": "-dvfs_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "Turn on DVFS for power model",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-enable_ptx_file_line_stats": {
+  "name": "-enable_ptx_file_line_stats",
+  "ctype": "OPT_BOOL",
+  "desc": "Turn on PTX source line statistic profiling. (1 = On)",
+  "default": "1",
+  "source": "cuda-sim/ptx-stats.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-fdata": {
+  "name": "-fdata",
+  "ctype": "OPT_FLOAT",
+  "desc": "floating point data",
+  "default": "0.001",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-gpgpu_TB_launch_latency": {
+  "name": "-gpgpu_TB_launch_latency",
+  "ctype": "OPT_INT32",
+  "desc": "thread block launch latency in cycles. Default: 0",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_adaptive_cache_config": {
+  "name": "-gpgpu_adaptive_cache_config",
+  "ctype": "OPT_BOOL",
+  "desc": "adaptive_cache_config",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_cache:dl2_texture_only": {
+  "name": "-gpgpu_cache:dl2_texture_only",
+  "ctype": "OPT_BOOL",
+  "desc": "L2 cache used for texture only",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_cdp_enabled": {
+  "name": "-gpgpu_cdp_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "Turn on CDP",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_cflog_interval": {
+  "name": "-gpgpu_cflog_interval",
+  "ctype": "OPT_INT32",
+  "desc": "Interval between each snapshot in control flow logger",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_clock_gated_lanes": {
+  "name": "-gpgpu_clock_gated_lanes",
+  "ctype": "OPT_BOOL",
+  "desc": "enable clock gated lanes for power calculations",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_clock_gated_reg_file": {
+  "name": "-gpgpu_clock_gated_reg_file",
+  "ctype": "OPT_BOOL",
+  "desc": "enable clock gated reg file for power calculations",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_coalesce_arch": {
+  "name": "-gpgpu_coalesce_arch",
+  "ctype": "OPT_INT32",
+  "desc": "Coalescing arch (GT200 = 13, Fermi = 20)",
+  "default": "13",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_compute_capability_major": {
+  "name": "-gpgpu_compute_capability_major",
+  "ctype": "OPT_UINT32",
+  "desc": "Major compute capability version number",
+  "default": "7",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_compute_capability_minor": {
+  "name": "-gpgpu_compute_capability_minor",
+  "ctype": "OPT_UINT32",
+  "desc": "Minor compute capability version number",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_concurrent_kernel_sm": {
+  "name": "-gpgpu_concurrent_kernel_sm",
+  "ctype": "OPT_BOOL",
+  "desc": "Support concurrent kernels on a SM (default = disabled)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_deadlock_detect": {
+  "name": "-gpgpu_deadlock_detect",
+  "ctype": "OPT_BOOL",
+  "desc": "Stop the simulation at deadlock (1=on (default), 0=off)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_dram_burst_length": {
+  "name": "-gpgpu_dram_burst_length",
+  "ctype": "OPT_UINT32",
+  "desc": "Burst length of each DRAM request (default = 4 data bus cycle)",
+  "default": "4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_dram_buswidth": {
+  "name": "-gpgpu_dram_buswidth",
+  "ctype": "OPT_UINT32",
+  "desc": "default = 4 bytes (8 bytes per cycle at DDR)",
+  "default": "4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_dram_partition_queues": {
+  "name": "-gpgpu_dram_partition_queues",
+  "ctype": "OPT_CSTR",
+  "desc": "i2$:$2d:d2$:$2i",
+  "default": "8:8:8:8",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_dram_return_queue_size": {
+  "name": "-gpgpu_dram_return_queue_size",
+  "ctype": "OPT_INT32",
+  "desc": "0 = unlimited (default); # entries per chip",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_dram_scheduler": {
+  "name": "-gpgpu_dram_scheduler",
+  "ctype": "OPT_INT32",
+  "desc": "0 = fifo, 1 = FR-FCFS (defaul)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_enable_specialized_operand_collector": {
+  "name": "-gpgpu_enable_specialized_operand_collector",
+  "ctype": "OPT_BOOL",
+  "desc": "enable_specialized_operand_collector",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_flush_l1_cache": {
+  "name": "-gpgpu_flush_l1_cache",
+  "ctype": "OPT_BOOL",
+  "desc": "Flush L1 cache at the end of each kernel call",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_flush_l2_cache": {
+  "name": "-gpgpu_flush_l2_cache",
+  "ctype": "OPT_BOOL",
+  "desc": "Flush L2 cache at the end of each kernel call",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_frfcfs_dram_sched_queue_size": {
+  "name": "-gpgpu_frfcfs_dram_sched_queue_size",
+  "ctype": "OPT_INT32",
+  "desc": "0 = unlimited (default); # entries per chip",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_heap_size_limit": {
+  "name": "-gpgpu_heap_size_limit",
+  "ctype": "OPT_INT32",
+  "desc": "GPU malloc heap size",
+  "default": "8388608",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ignore_resources_limitation": {
+  "name": "-gpgpu_ignore_resources_limitation",
+  "ctype": "OPT_BOOL",
+  "desc": "gpgpu_ignore_resources_limitation (default 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_inst_fetch_throughput": {
+  "name": "-gpgpu_inst_fetch_throughput",
+  "ctype": "OPT_INT32",
+  "desc": "the number of fetched intruction per warp each cycle",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_kernel_launch_latency": {
+  "name": "-gpgpu_kernel_launch_latency",
+  "ctype": "OPT_INT32",
+  "desc": "Kernel launch latency in cycles. Default: 0",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_l1_banks": {
+  "name": "-gpgpu_l1_banks",
+  "ctype": "OPT_UINT32",
+  "desc": "The number of L1 cache banks",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_l1_banks_byte_interleaving": {
+  "name": "-gpgpu_l1_banks_byte_interleaving",
+  "ctype": "OPT_UINT32",
+  "desc": "l1 banks byte interleaving granularity",
+  "default": "32",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_l1_banks_hashing_function": {
+  "name": "-gpgpu_l1_banks_hashing_function",
+  "ctype": "OPT_UINT32",
+  "desc": "l1 banks hashing function",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_l1_cache_write_ratio": {
+  "name": "-gpgpu_l1_cache_write_ratio",
+  "ctype": "OPT_UINT32",
+  "desc": "L1D write ratio",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_l1_latency": {
+  "name": "-gpgpu_l1_latency",
+  "ctype": "OPT_UINT32",
+  "desc": "L1 Hit Latency",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_l2_rop_latency": {
+  "name": "-gpgpu_l2_rop_latency",
+  "ctype": "OPT_UINT32",
+  "desc": "ROP queue latency (default 85)",
+  "default": "85",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_lrc_enabled": {
+  "name": "-gpgpu_lrc_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "Enable load request coalescer",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_lrc_max_entries": {
+  "name": "-gpgpu_lrc_max_entries",
+  "ctype": "OPT_UINT32",
+  "desc": "Maximum number of entries in the LRC queue",
+  "default": "256",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_lrc_max_merged": {
+  "name": "-gpgpu_lrc_max_merged",
+  "ctype": "OPT_UINT32",
+  "desc": "Maximum number of requests that can be merged in a single entry",
+  "default": "32",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_max_completed_cta": {
+  "name": "-gpgpu_max_completed_cta",
+  "ctype": "OPT_INT32",
+  "desc": "terminates gpu simulation early (0 = no limit)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_max_cta": {
+  "name": "-gpgpu_max_cta",
+  "ctype": "OPT_INT32",
+  "desc": "terminates gpu simulation early (0 = no limit)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_max_cycle": {
+  "name": "-gpgpu_max_cycle",
+  "ctype": "OPT_INT64",
+  "desc": "terminates gpu simulation early (0 = no limit)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_max_insn": {
+  "name": "-gpgpu_max_insn",
+  "ctype": "OPT_INT64",
+  "desc": "terminates gpu simulation early (0 = no limit)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_mem_addr_test": {
+  "name": "-gpgpu_mem_addr_test",
+  "ctype": "OPT_BOOL",
+  "desc": "run sweep test to check address mapping for aliased address",
+  "default": "0",
+  "source": "gpgpu-sim/addrdec.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_mem_unit_ports": {
+  "name": "-gpgpu_mem_unit_ports",
+  "ctype": "OPT_INT32",
+  "desc": "The number of memory transactions allowed per core cycle",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_chiplet_partition": {
+  "name": "-gpgpu_n_chiplet_partition",
+  "ctype": "OPT_INT32",
+  "desc": "Number of chiplet partitions. Default: 2",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_cluster_ejection_buffer_size": {
+  "name": "-gpgpu_n_cluster_ejection_buffer_size",
+  "ctype": "OPT_UINT32",
+  "desc": "number of packets in ejection buffer",
+  "default": "8",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_clusters": {
+  "name": "-gpgpu_n_clusters",
+  "ctype": "OPT_UINT32",
+  "desc": "number of processing clusters",
+  "default": "10",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_cores_per_cluster": {
+  "name": "-gpgpu_n_cores_per_cluster",
+  "ctype": "OPT_UINT32",
+  "desc": "number of simd cores per cluster",
+  "default": "3",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_ldst_response_buffer_size": {
+  "name": "-gpgpu_n_ldst_response_buffer_size",
+  "ctype": "OPT_UINT32",
+  "desc": "number of response packets in ld/st unit ejection buffer",
+  "default": "2",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_mem": {
+  "name": "-gpgpu_n_mem",
+  "ctype": "OPT_UINT32",
+  "desc": "number of memory modules (e.g. memory controllers) in gpu",
+  "default": "8",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_mem_per_ctrlr": {
+  "name": "-gpgpu_n_mem_per_ctrlr",
+  "ctype": "OPT_UINT32",
+  "desc": "number of memory chips per memory controller",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_n_sub_partition_per_mchannel": {
+  "name": "-gpgpu_n_sub_partition_per_mchannel",
+  "ctype": "OPT_UINT32",
+  "desc": "number of memory subpartition in each memory module",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_cta_barriers": {
+  "name": "-gpgpu_num_cta_barriers",
+  "ctype": "OPT_UINT32",
+  "desc": "Maximum number of named barriers per CTA (default 16)",
+  "default": "16",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_dp_units": {
+  "name": "-gpgpu_num_dp_units",
+  "ctype": "OPT_UINT32",
+  "desc": "Number of DP units (default=0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_int_units": {
+  "name": "-gpgpu_num_int_units",
+  "ctype": "OPT_UINT32",
+  "desc": "Number of INT units (default=0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_mem_units": {
+  "name": "-gpgpu_num_mem_units",
+  "ctype": "OPT_UINT32",
+  "desc": "Number if ldst units (default=1) WARNING: not hooked up to anything",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_reg_banks": {
+  "name": "-gpgpu_num_reg_banks",
+  "ctype": "OPT_INT32",
+  "desc": "Number of register banks (default = 8)",
+  "default": "8",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_sched_per_core": {
+  "name": "-gpgpu_num_sched_per_core",
+  "ctype": "OPT_INT32",
+  "desc": "Number of warp schedulers per core",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_sfu_units": {
+  "name": "-gpgpu_num_sfu_units",
+  "ctype": "OPT_UINT32",
+  "desc": "Number of SF units (default=1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_sp_units": {
+  "name": "-gpgpu_num_sp_units",
+  "ctype": "OPT_UINT32",
+  "desc": "Number of SP units (default=1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_num_tensor_core_units": {
+  "name": "-gpgpu_num_tensor_core_units",
+  "ctype": "OPT_UINT32",
+  "desc": "Number of tensor_core units (default=1)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_dp": {
+  "name": "-gpgpu_operand_collector_num_in_ports_dp",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_gen": {
+  "name": "-gpgpu_operand_collector_num_in_ports_gen",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_int": {
+  "name": "-gpgpu_operand_collector_num_in_ports_int",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_mem": {
+  "name": "-gpgpu_operand_collector_num_in_ports_mem",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_sfu": {
+  "name": "-gpgpu_operand_collector_num_in_ports_sfu",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_sp": {
+  "name": "-gpgpu_operand_collector_num_in_ports_sp",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_in_ports_tensor_core": {
+  "name": "-gpgpu_operand_collector_num_in_ports_tensor_core",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_dp": {
+  "name": "-gpgpu_operand_collector_num_out_ports_dp",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_gen": {
+  "name": "-gpgpu_operand_collector_num_out_ports_gen",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_int": {
+  "name": "-gpgpu_operand_collector_num_out_ports_int",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_mem": {
+  "name": "-gpgpu_operand_collector_num_out_ports_mem",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_sfu": {
+  "name": "-gpgpu_operand_collector_num_out_ports_sfu",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_sp": {
+  "name": "-gpgpu_operand_collector_num_out_ports_sp",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_out_ports_tensor_core": {
+  "name": "-gpgpu_operand_collector_num_out_ports_tensor_core",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector unit in ports (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_dp": {
+  "name": "-gpgpu_operand_collector_num_units_dp",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_gen": {
+  "name": "-gpgpu_operand_collector_num_units_gen",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_int": {
+  "name": "-gpgpu_operand_collector_num_units_int",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_mem": {
+  "name": "-gpgpu_operand_collector_num_units_mem",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 2)",
+  "default": "2",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_sfu": {
+  "name": "-gpgpu_operand_collector_num_units_sfu",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 4)",
+  "default": "4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_sp": {
+  "name": "-gpgpu_operand_collector_num_units_sp",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 4)",
+  "default": "4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_operand_collector_num_units_tensor_core": {
+  "name": "-gpgpu_operand_collector_num_units_tensor_core",
+  "ctype": "OPT_INT32",
+  "desc": "number of collector units (default = 4)",
+  "default": "4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_opndcoll_model": {
+  "name": "-gpgpu_opndcoll_model",
+  "ctype": "OPT_UINT32",
+  "desc": "Detailed operand collector model (0=DETAILED, 1=SIMPLE)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_perf_sim_memcpy": {
+  "name": "-gpgpu_perf_sim_memcpy",
+  "ctype": "OPT_BOOL",
+  "desc": "Fill the L2 cache on memcpy",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_perfect_mem": {
+  "name": "-gpgpu_perfect_mem",
+  "ctype": "OPT_BOOL",
+  "desc": "enable perfect memory mode (no cache miss)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_ptx_convert_to_ptxplus": {
+  "name": "-gpgpu_ptx_convert_to_ptxplus",
+  "ctype": "OPT_BOOL",
+  "desc": "Convert SASS (native ISA) to ptxplus and run ptxplus",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_force_max_capability": {
+  "name": "-gpgpu_ptx_force_max_capability",
+  "ctype": "OPT_UINT32",
+  "desc": "Force maximum compute capability",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_inst_debug_file": {
+  "name": "-gpgpu_ptx_inst_debug_file",
+  "ctype": "OPT_CSTR",
+  "desc": "Executed instructions' debug output file",
+  "default": "inst_debug.txt",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_inst_debug_thread_uid": {
+  "name": "-gpgpu_ptx_inst_debug_thread_uid",
+  "ctype": "OPT_INT32",
+  "desc": "Thread UID for executed instructions' debug output",
+  "default": "1",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_inst_debug_to_file": {
+  "name": "-gpgpu_ptx_inst_debug_to_file",
+  "ctype": "OPT_BOOL",
+  "desc": "Dump executed instructions' debug information to file",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_save_converted_ptxplus": {
+  "name": "-gpgpu_ptx_save_converted_ptxplus",
+  "ctype": "OPT_BOOL",
+  "desc": "Saved converted ptxplus to a file",
+  "default": "0",
+  "source": "cuda-sim/ptx_loader.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_sim_mode": {
+  "name": "-gpgpu_ptx_sim_mode",
+  "ctype": "OPT_INT32",
+  "desc": "Select between Performance (default) or Functional simulation (1)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_ptx_use_cuobjdump": {
+  "name": "-gpgpu_ptx_use_cuobjdump",
+  "ctype": "OPT_BOOL",
+  "desc": "Use cuobjdump to extract ptx and sass from binaries",
+  "default": "#if (CUDART_VERSION >= 4000",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_reg_bank_use_warp_id": {
+  "name": "-gpgpu_reg_bank_use_warp_id",
+  "ctype": "OPT_BOOL",
+  "desc": "Use warp ID in mapping registers to banks (default = off)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_reg_file_port_throughput": {
+  "name": "-gpgpu_reg_file_port_throughput",
+  "ctype": "OPT_INT32",
+  "desc": "the number ports of the register file",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_registers_per_block": {
+  "name": "-gpgpu_registers_per_block",
+  "ctype": "OPT_UINT32",
+  "desc": "Maximum number of registers per CTA. (default 8192)",
+  "default": "8192",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_runtime_pending_launch_count_limit": {
+  "name": "-gpgpu_runtime_pending_launch_count_limit",
+  "ctype": "OPT_INT32",
+  "desc": "GPU device runtime pending launch count",
+  "default": "2048",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_runtime_stat": {
+  "name": "-gpgpu_runtime_stat",
+  "ctype": "OPT_CSTR",
+  "desc": "display runtime statistics such as dram utilization {<freq>:<flag>}",
+  "default": "10000:0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_runtime_sync_depth_limit": {
+  "name": "-gpgpu_runtime_sync_depth_limit",
+  "ctype": "OPT_INT32",
+  "desc": "GPU device runtime synchronize depth",
+  "default": "2",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_shader_core_pipeline": {
+  "name": "-gpgpu_shader_core_pipeline",
+  "ctype": "OPT_CSTR",
+  "desc": "shader core pipeline config, i.e., {<nthread>:<warpsize>}",
+  "default": "1024:32",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shader_cta": {
+  "name": "-gpgpu_shader_cta",
+  "ctype": "OPT_UINT32",
+  "desc": "Maximum number of concurrent CTAs in shader (default 32)",
+  "default": "32",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_limited_broadcast": {
+  "name": "-gpgpu_shmem_limited_broadcast",
+  "ctype": "OPT_BOOL",
+  "desc": "Limit shared memory to do one broadcast per cycle (default on)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_num_banks": {
+  "name": "-gpgpu_shmem_num_banks",
+  "ctype": "OPT_UINT32",
+  "desc": "Number of banks in the shared memory in each shader core (default 16)",
+  "default": "16",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_option": {
+  "name": "-gpgpu_shmem_option",
+  "ctype": "OPT_CSTR",
+  "desc": "Option list of shared memory sizes",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_per_block": {
+  "name": "-gpgpu_shmem_per_block",
+  "ctype": "OPT_UINT32",
+  "desc": "Size of shared memory per thread block or CTA (default 48kB)",
+  "default": "49152",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_size": {
+  "name": "-gpgpu_shmem_size",
+  "ctype": "OPT_UINT32",
+  "desc": "Size of shared memory per shader core (default 16kB)",
+  "default": "16384",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_sizeDefault": {
+  "name": "-gpgpu_shmem_sizeDefault",
+  "ctype": "OPT_UINT32",
+  "desc": "Size of shared memory per shader core (default 16kB)",
+  "default": "16384",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_size_PrefL1": {
+  "name": "-gpgpu_shmem_size_PrefL1",
+  "ctype": "OPT_UINT32",
+  "desc": "Size of shared memory per shader core (default 16kB)",
+  "default": "16384",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_shmem_size_PrefShared": {
+  "name": "-gpgpu_shmem_size_PrefShared",
+  "ctype": "OPT_UINT32",
+  "desc": "Size of shared memory per shader core (default 16kB)",
+  "default": "16384",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_simd_model": {
+  "name": "-gpgpu_simd_model",
+  "ctype": "OPT_INT32",
+  "desc": "1 = post-dominator",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_simple_dram_clock_multiplier": {
+  "name": "-gpgpu_simple_dram_clock_multiplier",
+  "ctype": "OPT_UINT32",
+  "desc": "clock multiplier for simple dram model (default = 1)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_simple_dram_model": {
+  "name": "-gpgpu_simple_dram_model",
+  "ctype": "OPT_BOOL",
+  "desc": "simple_dram_model with fixed latency and BW",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_smem_latency": {
+  "name": "-gpgpu_smem_latency",
+  "ctype": "OPT_UINT32",
+  "desc": "smem Latency",
+  "default": "3",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_stack_size_limit": {
+  "name": "-gpgpu_stack_size_limit",
+  "ctype": "OPT_INT32",
+  "desc": "GPU thread stack size",
+  "default": "1024",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-gpgpu_sub_core_model": {
+  "name": "-gpgpu_sub_core_model",
+  "ctype": "OPT_BOOL",
+  "desc": "Sub Core Volta/Pascal model (default = off)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_tensor_core_avail": {
+  "name": "-gpgpu_tensor_core_avail",
+  "ctype": "OPT_UINT32",
+  "desc": "Tensor Core Available (default=0)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_unified_l1d_size": {
+  "name": "-gpgpu_unified_l1d_size",
+  "ctype": "OPT_UINT32",
+  "desc": "Size of unified data cache(L1D + shared memory) in KB",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_warp_issue_shader": {
+  "name": "-gpgpu_warp_issue_shader",
+  "ctype": "OPT_INT32",
+  "desc": "Specify which shader core to collect the warp issue distribution from",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-gpgpu_warpdistro_shader": {
+  "name": "-gpgpu_warpdistro_shader",
+  "ctype": "OPT_INT32",
+  "desc": "Specify which shader core to collect the warp size distribution from",
+  "default": "-1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-hw_perf_bench_name": {
+  "name": "-hw_perf_bench_name",
+  "ctype": "OPT_CSTR",
+  "desc": "Kernel Name in Hardware Performance Statistics file",
+  "default": "",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-hw_perf_file_name": {
+  "name": "-hw_perf_file_name",
+  "ctype": "OPT_CSTR",
+  "desc": "Hardware Performance Statistics file",
+  "default": "hw_perf.csv",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_arbiter_algo": {
+  "name": "-icnt_arbiter_algo",
+  "ctype": "OPT_UINT32",
+  "desc": "arbiter_algo",
+  "default": "1",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_flit_size": {
+  "name": "-icnt_flit_size",
+  "ctype": "OPT_UINT32",
+  "desc": "icnt_flit_size",
+  "default": "32",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_grant_cycles": {
+  "name": "-icnt_grant_cycles",
+  "ctype": "OPT_UINT32",
+  "desc": "grant_cycles",
+  "default": "1",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_in_buffer_limit": {
+  "name": "-icnt_in_buffer_limit",
+  "ctype": "OPT_UINT32",
+  "desc": "in_buffer_limit",
+  "default": "64",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_out_buffer_limit": {
+  "name": "-icnt_out_buffer_limit",
+  "ctype": "OPT_UINT32",
+  "desc": "out_buffer_limit",
+  "default": "64",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_subnets": {
+  "name": "-icnt_subnets",
+  "ctype": "OPT_UINT32",
+  "desc": "subnets",
+  "default": "2",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-icnt_verbose": {
+  "name": "-icnt_verbose",
+  "ctype": "OPT_UINT32",
+  "desc": "inct_verbose",
+  "default": "0",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-idata": {
+  "name": "-idata",
+  "ctype": "OPT_INT32",
+  "desc": "integer data",
+  "default": "-456",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-inter_chiplet_queue_latency": {
+  "name": "-inter_chiplet_queue_latency",
+  "ctype": "OPT_UINT32",
+  "desc": "latency (in cycles) for inter-chiplet queue",
+  "default": "100",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-inter_chiplet_queue_size": {
+  "name": "-inter_chiplet_queue_size",
+  "ctype": "OPT_UINT32",
+  "desc": "max entries in inter-chiplet request/reply queues",
+  "default": "128",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-inter_config_file": {
+  "name": "-inter_config_file",
+  "ctype": "OPT_CSTR",
+  "desc": "Interconnection network config file",
+  "default": "mesh",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-l2_ideal": {
+  "name": "-l2_ideal",
+  "ctype": "OPT_BOOL",
+  "desc": "Use a ideal L2 cache that always hit",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-n_regfile_gating_group": {
+  "name": "-n_regfile_gating_group",
+  "ctype": "OPT_UINT32",
+  "desc": "group of lanes that should be read/written together)",
+  "default": "4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-network_mode": {
+  "name": "-network_mode",
+  "ctype": "OPT_INT32",
+  "desc": "Interconnection network mode",
+  "default": "1",
+  "source": "gpgpu-sim/icnt_wrapper.cc",
+  "kind": "architectural",
+  "fields": []
+ },
+ "-otherflag": {
+  "name": "-otherflag",
+  "ctype": "OPT_BOOL",
+  "desc": "second flag",
+  "default": "1",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-power_per_cycle_dump": {
+  "name": "-power_per_cycle_dump",
+  "ctype": "OPT_BOOL",
+  "desc": "Dump detailed power output each cycle",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-power_simulation_enabled": {
+  "name": "-power_simulation_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "Turn on power simulator (1=On, 0=Off)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-power_trace_enabled": {
+  "name": "-power_trace_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "produce a file for the power trace (1=On, 0=Off)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-power_trace_zlevel": {
+  "name": "-power_trace_zlevel",
+  "ctype": "OPT_INT32",
+  "desc": "Compression level of the power trace output log (0=no comp, 9=highest)",
+  "default": "6",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-ptx_line_stats_filename": {
+  "name": "-ptx_line_stats_filename",
+  "ctype": "OPT_CSTR",
+  "desc": "Output file for PTX source line statistics.",
+  "default": "gpgpu_inst_stats.txt",
+  "source": "cuda-sim/ptx-stats.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-resume_CTA": {
+  "name": "-resume_CTA",
+  "ctype": "OPT_INT32",
+  "desc": "resume from which CTA",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-resume_kernel": {
+  "name": "-resume_kernel",
+  "ctype": "OPT_INT32",
+  "desc": "Resume from which kernel (1= 1st kernel)",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-resume_option": {
+  "name": "-resume_option",
+  "ctype": "OPT_INT32",
+  "desc": "resume flag (0 = no resume)",
+  "default": "0",
+  "source": "abstract_hardware_model.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-save_embedded_ptx": {
+  "name": "-save_embedded_ptx",
+  "ctype": "OPT_BOOL",
+  "desc": "saves ptx files embedded in binary as <n>.ptx",
+  "default": "0",
+  "source": "cuda-sim/ptx_loader.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-sdata": {
+  "name": "-sdata",
+  "ctype": "OPT_CSTR",
+  "desc": "first string data",
+  "default": "hellow",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-someflag": {
+  "name": "-someflag",
+  "ctype": "OPT_BOOL",
+  "desc": "first flag",
+  "default": "0",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-steady_power_levels_enabled": {
+  "name": "-steady_power_levels_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "produce a file for the steady power levels (1=On, 0=Off)",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-steady_state_definition": {
+  "name": "-steady_state_definition",
+  "ctype": "OPT_CSTR",
+  "desc": "allowed deviation:number of samples",
+  "default": "8:4",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-trace_enabled": {
+  "name": "-trace_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "Turn on traces",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-trace_sampling_core": {
+  "name": "-trace_sampling_core",
+  "ctype": "OPT_INT32",
+  "desc": "The core which is printed using CORE_DPRINTF. Default 0",
+  "default": "0",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-ulldata": {
+  "name": "-ulldata",
+  "ctype": "OPT_UINT64",
+  "desc": "unsigend long long data",
+  "default": "0x123456789abcdef1",
+  "source": "option_parser.cc",
+  "kind": "fixture",
+  "fields": []
+ },
+ "-visualizer_enabled": {
+  "name": "-visualizer_enabled",
+  "ctype": "OPT_BOOL",
+  "desc": "Turn on visualizer output (1=On, 0=Off)",
+  "default": "1",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-visualizer_outputfile": {
+  "name": "-visualizer_outputfile",
+  "ctype": "OPT_CSTR",
+  "desc": "Specifies the output log file for visualizer",
+  "default": "NULL",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ },
+ "-visualizer_zlevel": {
+  "name": "-visualizer_zlevel",
+  "ctype": "OPT_INT32",
+  "desc": "Compression level of the visualizer output log (0=no comp, 9=highest)",
+  "default": "6",
+  "source": "gpgpu-sim/gpu-sim.cc",
+  "kind": "operational",
+  "fields": []
+ }
+}
